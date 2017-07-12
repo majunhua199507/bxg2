@@ -27,4 +27,8 @@ define(['jquery','cookie','template'], function ($,cookie,template) {
 			}
 		})
 	})
+	console.log($(".navs a+ul").prev());
+	$(".navs a+ul").prev().on('click',function () {
+		$(this).next().slideToggle();
+	})
 })
