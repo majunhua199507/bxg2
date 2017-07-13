@@ -2,7 +2,7 @@ require.config({
     baseUrl: '/bxg/public',
     paths: {
         'jquery': 'assets/jquery/jquery.min',
-        'boorstrap': 'assets/bootstrap/js/bootstrap.min',
+        'bootstrap': 'assets/bootstrap/js/bootstrap',
         'template': 'assets/artTemplate/template',
         'nprogress': 'assets/nprogress/nprogress',
         'echarts': 'assets/echarts/echarts.min',

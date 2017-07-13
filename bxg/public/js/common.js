@@ -22,7 +22,7 @@ define(['jquery','cookie','template'], function ($,cookie,template) {
 			success:function (info) {
 				if (info.code==200) {
 					alert('成功退出'),
-					location.href='login'
+					location.href='/login'
 				}
 			}
 		})
