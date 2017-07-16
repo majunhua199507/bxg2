@@ -46,13 +46,13 @@
 				  // var_dump($arr);
       			// stydyit.com/index.php/login
       			if(count($arr)==2){    // count是获取数组中元素的长度，类似于js中数组的length属性
-      				$path = 'bxg/'.$arr[0].'/'.$arr[1];
+      				$path = $arr[0].'/'.$arr[1];
       			}else if(count($arr)==1) {
-      				$path = 'bxg/dashboard/'.$arr[0];
+      				$path = 'dashboard/'.$arr[0];
       			}
 
 			}else {			//如果程序到了这个分支里面，说明是用的stutyit.com/index.php进行访问的
-					$path = 'bxg/dashboard/index';
+					$path = 'dashboard/index';
 			};
 
 //			include 'views'.$path.'.html';
